@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,13 @@
       background-color: aquamarine;
       font-family: sans-serif;
     }
-    ul, li {
-      padding: 0; 
+
+    ul,
+    li {
+      padding: 0;
       list-style: none;
     }
+
     ul {
       display: flex;
       margin: 10px;
@@ -22,6 +26,7 @@
       justify-content: space-between;
       height: 100px;
     }
+
     li {
       display: block;
       width: 18%;
@@ -32,34 +37,42 @@
       font-weight: bold;
       text-align: center;
       color: #fff;
-      
+
     }
+
     h1 {
       margin: 20px 20px 4px 15px;
       font-size: 1.3em;
       color: darkblue;
     }
+
     .flexstart {
       align-items: flex-start;
     }
+
     .flexend {
       align-items: flex-end;
     }
+
     .flexcenter {
       align-items: center;
     }
+
     .stretch {
       align-items: stretch;
     }
+
     .stretch li {
       height: auto;
       line-height: 100px;
     }
+
     .baseline {
       align-items: baseline;
     }
   </style>
 </head>
+
 <body>
   <div class="test">
     <h1>flex-start</h1>
@@ -112,4 +125,5 @@
     </ul>
   </div>
 </body>
+
 </html>
