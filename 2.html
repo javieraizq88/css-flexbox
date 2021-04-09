@@ -5,61 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        /* Esta propiedad hace que cambien las reglas con las cuales sus hijos van a ser representados en la página. */
-        .contendor-flex {
-            display: flex;
-        }
-
-        /* En resumen, con inline-flex es como si tuviéramos un elemento inline-block, donde sus hijos se comportan con las reglas de Flexbox. */
-        .contendor-flex {
-            display: inline-flex;
-        }
-
-        body {
-            font-size: 2.5em;
-            font-family: sans-serif;
-            color: #ddd;
-        }
-
-        .flex-container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        .item {
-            background-color: #369;
-            margin: 2px;
-            padding: 5px;
-            flex-grow: 1;
-        }
-
-        /* En este caso hemos colocado "flex-wrap: nowrap" y además cada uno de los ítem hemos indicado que debe tener una anchura de 30%. Recuerda que en nuestro HTML teníamos 4 ítem dentro del flex-container y sin embargo, cuando veamos el resultado obtendremos algo como esto: */
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-        }
-
-        .item {
-            background-color: #369;
-            width: 30%;
-            padding: 5px;
-        }
-
-        /* Ahora bien, si cambiamos para "flex-wrap: wrap" entonces sí se producirá el salto de línea: */
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-
-        /* Esta propiedad no aporta nada nuevo, pues simplemente es un atajo para escribir de 1 sola vez flex-direction y flex-wrap. El valor predeterminado es "row nowrap" */
-        .flex-container {
-            display: flex;
-            flex-flow: row wrap;
-        }
-    </style>
+    <link rel="stylesheet" href="2.css">
 </head>
 
 <body>
