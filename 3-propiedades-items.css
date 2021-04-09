@@ -1,0 +1,23 @@
+   /* El contenedor es por supuesto un flexbox */
+   .contenedor {
+    display: flex;
+    background-color: #666;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+/* Y los ítem tienen varias clases, a las que les vamos a asociar distintos valores de flex-flow. */
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}
+
+.grow3 {
+    flex-grow: 3;
+}
