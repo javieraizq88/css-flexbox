@@ -1,0 +1,11 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    /* los mande para la fila de abajo */
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.item {
+    margin: 10px;
+}
